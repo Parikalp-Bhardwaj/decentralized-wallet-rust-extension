@@ -19,7 +19,6 @@ async fn send_sol(req: web::Json<TransferRequest>) -> impl Responder {
             Err(_) => return Err("Invalid sender private key format".to_string()),
         };
 
-        // Ensure the private key is 64 bytes long
         if sender_keypair_bytes.len() != 64 {
             return Err("Invalid sender private key length".to_string());
         }
@@ -58,7 +57,7 @@ async fn send_sol(req: web::Json<TransferRequest>) -> impl Responder {
         );
 
         match rpc_client.send_and_confirm_transaction(&transaction) {
-            Ok(signature) => Ok(signature.to_string()), // Convert the signature to String
+            Ok(signature) => Ok(signature.to_string()), 
             Err(e) => Err(format!("Transaction failed: {:?}", e)),
         }
     })

@@ -10,7 +10,7 @@ use log::{error, info};
 use crate::config::Config;
 
 
-#[post("/generate_mnemonic")]
+#[get("/generate_mnemonic")]
 async fn generate_keypair() -> impl Responder{
     let mnemonic = Mnemonic::new(MnemonicType::Words12, Language::English);
     let response = models::MnemonicResponse {

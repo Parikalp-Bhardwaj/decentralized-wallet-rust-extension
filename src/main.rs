@@ -1,9 +1,3 @@
-// use std::collections;
-
-// use bip39::{Language, Mnemonic};
-// use controller::controller;
-// use solana_sdk::signature::{Keypair,Signer};
-// use crate::account::create_account::Account;
 mod bip;
 // use crate::bip::mnemonic::BipMenomic;
 use actix_web::{get,post, web, App, HttpResponse, HttpServer, Responder,middleware, http};
@@ -15,9 +9,6 @@ mod account;
 use actix_cors::Cors;
 mod config;
 use config::Config;
-
-// use base58::FromBase58;
-// use bs58;
 
 
 #[actix_web::main]

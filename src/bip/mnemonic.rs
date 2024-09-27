@@ -12,7 +12,7 @@ impl BipMenomic{
         mnemonic.phrase()
     }
 
-    pub fn get_mnemonic_from_phase(phrase: &str) -> Mnemonic{
+    pub fn get_mnemonic_from_phrase(phrase: &str) -> Mnemonic{
         Mnemonic::from_phrase(phrase, Language::English).expect("Failed to get mnemonic from phrase")
     }
 

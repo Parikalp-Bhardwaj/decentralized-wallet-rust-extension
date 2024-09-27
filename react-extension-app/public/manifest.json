@@ -1,13 +1,16 @@
 {
-  "name": "Crypto Wallet Project",
-  "version": "1.0.0",
-  "description": "Self Custodial and Decentralized Crypto Wallet",
-  "manifest_version": 3,
-  "action": {
-    "default_popup": "index.html",
-    "default_title": "Open Wallet"
-  },
-  "permissions": [
-    "storage"
-  ]
-}
+    "name": "Chrome React SEO Extension",
+    "description": "The power of React and TypeScript for building interactive Chrome extensions",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Open the popup"
+    },
+    "icons": {
+        "16": "icon-16.jpg",
+        "48": "icon-48.jpg",
+        "128": "icon-128.jpg"
+    }
+ }
+
