@@ -1,20 +1,5 @@
 # Solana Wallet Application
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Feature Summary](#feature-summary)
-- [How to Run](#how-to-run)
-  - [Install Dependencies](#install-dependencies)
-- [ServerConfig Component](#serverconfig-component)
-  - [Features](#features)
-  - [How It Works](#how-it-works)
-  - [Usage](#usage)
-- [Usage](#usage)
-- [Blockchain Cluster Setup and Deployment](#blockchain-cluster-setup-and-deployment)
-- [CreateNetwork API](#createnetwork-api)
-
-
 ## Introduction
 This Solana wallet application allows you to manage SOL tokens and interact with the Solana blockchain. It offers key functionalities such as generating a new wallet, recovering wallets from mnemonic phrases, sending SOL, retrieving token balances, and more.
 
