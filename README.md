@@ -1,4 +1,4 @@
-# Solana Wallet Application
+# Decentralized Solana Wallet 
 
 ## Introduction
 This Solana wallet application allows you to manage SOL tokens and interact with the Solana blockchain. It offers key functionalities such as generating a new wallet, recovering wallets from mnemonic phrases, sending SOL, retrieving token balances, and more.
