@@ -2,7 +2,7 @@ mod bip;
 // use crate::bip::mnemonic::BipMenomic;
 use actix_web::{get,post, web, App, HttpResponse, HttpServer, Responder,middleware, http};
 mod controller;
-use crate::controller::controller::{generate_keypair,create_wallet,get_balance,};
+use crate::controller::controller::{generate_keypair,create_wallet,get_balance};
 
 mod models;
 mod account;

@@ -1,7 +1,7 @@
 use serde::{Serialize, Deserialize};
 
 
-#[derive(Serialize)]
+#[derive(Serialize, Deserialize)]
 pub struct WalletResponse {
     pub public_key: String,
 }
@@ -17,13 +17,13 @@ pub struct MnemonicRequest{
     pub passphrase: Option<String>
 }
 
-#[derive(Deserialize)]
+#[derive(Deserialize, Serialize)]
 pub struct BalanceRequest{
     pub public_key: String,
     pub rpc: Option<String>,
 }
 
-#[derive(Serialize)]
+#[derive(Serialize, Deserialize)]
 pub struct BalanceResponse {
     pub public_key: String,
     pub balance: u64,
@@ -37,7 +37,7 @@ pub struct TransferRequest {
 }
 
 
-#[derive(Serialize)]
+#[derive(Serialize, Deserialize)]
 pub struct TransferResponse {
     pub transaction_signature: String,
 }
@@ -48,7 +48,7 @@ pub struct PrivateKeyRequest {
     pub mnemonic: String,
 }
 
-#[derive(Serialize)]
+#[derive(Serialize, Deserialize)]
 pub struct PrivateKeyRespone {
     pub private_key: String, 
 }
