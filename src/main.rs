@@ -3,19 +3,23 @@ mod bip;
 use actix_web::{get,post, web, App, HttpResponse, HttpServer, Responder,middleware, http};
 mod controller;
 use crate::controller::controller::{generate_keypair,create_wallet,get_balance};
-
 mod models;
 mod account;
 use actix_cors::Cors;
 mod config;
 use config::Config;
-
+use crate::controller::utils;
+mod routes;
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {    
-    println!("Starting server at http://localhost:8000");
     env_logger::init();
     let config = Config::from_env();
+    let port = (*utils::constants::PORT).clone();
+    let address = (*utils::constants::ADDRESS).clone();
+    let mnemonic = (*utils::constants::MNEMONIC).as_str();
+    println!("-------------------------- {:?}",mnemonic);
+    println!("Starting server at {:?}:{:?}",address,port);
     HttpServer::new(move || {
         App::new()
             .app_data(web::Data::new(config.clone()))
@@ -32,13 +36,14 @@ async fn main() -> std::io::Result<()> {
         .max_age(3600),
             )
             .wrap(middleware::Logger::default())
-            .service(generate_keypair)
-            .service(create_wallet)
-            .service(get_balance)
-            .service(controller::transfer::send_sol)
-            .service(account::private_key::get_private_key)
+            // .service(generate_keypair)
+            // .service(create_wallet)
+            // .service(get_balance)
+            // .service(controller::transfer::send_sol)
+            // .service(account::private_key::get_private_key)
+            .configure(routes::home_routes::config)
     })
-    .bind("127.0.0.1:8080")?
+    .bind((address,port))?
     .run()
     .await
 

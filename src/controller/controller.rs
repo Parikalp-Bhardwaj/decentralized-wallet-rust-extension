@@ -1,6 +1,5 @@
 use actix_web::{post, get, web, HttpResponse, Responder};
 use bip39::Seed;
-
 use bip39::{Mnemonic, MnemonicType, Language};
 use crate::account::create_account::Account;
 use solana_sdk::{pubkey::Pubkey, signature::{Keypair as SolanaKeypair, Signer},commitment_config::CommitmentConfig};
@@ -13,7 +12,7 @@ use serde_json::json;
 
 
 // By calling the generate_mnemonic api we will new mnemonic
-#[get("/generate_mnemonic")]
+#[get("/api/generate_mnemonic")]
 async fn generate_keypair() -> impl Responder{
     let mnemonic = Mnemonic::new(MnemonicType::Words12, Language::English);
     let response = models::MnemonicResponse {
@@ -25,7 +24,7 @@ async fn generate_keypair() -> impl Responder{
 }
 
 // create_wallet is for the creating wallet with mnemonic
-#[post("/create_wallet")]
+#[post("/api/create_wallet")]
 async fn create_wallet(mnemonic_request: web::Json<models::MnemonicRequest>) -> impl Responder{
     let mnemonic = match Mnemonic::from_phrase(&mnemonic_request.phrase, Language::English){
         Ok(m) => m,
@@ -50,7 +49,7 @@ async fn create_wallet(mnemonic_request: web::Json<models::MnemonicRequest>) -> 
     HttpResponse::Ok().json(respone)
 }
 
-#[post("/get_balance")]
+#[post("/api/get_balance")]
 async fn get_balance(
     param: web::Json<models::BalanceRequest>,
     config: web::Data<Config>,
@@ -113,7 +112,7 @@ mod tests{
         ).await;
 
         let req = test::TestRequest::get()
-        .uri("/generate_mnemonic")
+        .uri("/api/generate_mnemonic")
         .to_request();
 
         let resp = test::call_service(&mut app, req).await;
@@ -132,7 +131,7 @@ mod tests{
 
 
         let response = test::TestRequest::post()
-                    .uri("/create_wallet")
+                    .uri("/api/create_wallet")
                     .set_json(&json!({
                         "phrase": mnemonic_phrase,
                         "passphrase": null  
@@ -170,7 +169,7 @@ mod tests{
 
         // Create a request to the /get_balance endpoint with a custom RPC URL
         let req = test::TestRequest::post()
-            .uri("/get_balance")
+            .uri("/api/get_balance")
             .set_json(&json!({
                 "public_key": public_key,
                 "rpc": custom_rpc_url

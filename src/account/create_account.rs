@@ -1,12 +1,12 @@
 use bip39::Seed;
 use solana_sdk::signature::{Keypair as SolanaKeypair, Signer};
 use ed25519_dalek::Keypair;
-use solana_client::rpc_client::RpcClient;
-use solana_sdk::{pubkey::Pubkey, commitment_config::CommitmentConfig};
+// use solana_client::rpc_client::RpcClient;
+// use solana_sdk::{pubkey::Pubkey, commitment_config::CommitmentConfig};
 
-use sha2::{Digest, Sha256};
+// use sha2::{Digest, Sha256};
 pub struct Account{
-    pub account: SolanaKeypair
+    account: SolanaKeypair
 }
 
 impl Account{

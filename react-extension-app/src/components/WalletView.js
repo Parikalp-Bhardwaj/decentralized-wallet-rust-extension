@@ -155,7 +155,7 @@ function WalletView({
     try {
      
       setProcessing(true);
-      const privateKeyResponse = await axios.post('http://localhost:8080/get_privateKey', {
+      const privateKeyResponse = await axios.post('http://localhost:8080/api/get_privateKey', {
         mnemonic: seedPhrase, 
       });
 
@@ -167,7 +167,7 @@ function WalletView({
         }
         console.log("privateKey ", privateKey, "amount ", amount, "to ", to); 
   
-        const response = await axios.post('http://127.0.0.1:8080/send_sol', {
+        const response = await axios.post('http://127.0.0.1:8080/api/send_sol', {
           sender_private_key: privateKey, 
           recipient_public_key: to, 
           amount: parseFloat(amount), 
@@ -197,7 +197,7 @@ function WalletView({
         payload.rpc = selectedChain.trim();
       }
   
-      const response = await axios.post('http://localhost:8080/get_balance', payload);
+      const response = await axios.post('http://localhost:8080/api/get_balance', payload);
   
       setBalance(response.data.balance);
     } catch (err) {

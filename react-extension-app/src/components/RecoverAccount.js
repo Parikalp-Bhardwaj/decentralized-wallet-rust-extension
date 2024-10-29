@@ -23,7 +23,7 @@ function RecoverAccount({ setWallet, setSeedPhrase }) {
   async function recoverWallet(){
     try {
       setError('');
-      const response = await axios.post('http://localhost:8080/create_wallet', {
+      const response = await axios.post('http://localhost:8080/api/create_wallet', {
         phrase: typedSeed,
         passphrase: passphrase || null,
       });

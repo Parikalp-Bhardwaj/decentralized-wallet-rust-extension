@@ -1,18 +1,12 @@
 use actix_web::{post, web, HttpResponse, Responder};
 use solana_client::rpc_client::RpcClient;
 use solana_sdk::{signature::Keypair, pubkey::Pubkey, signer::Signer};
-use serde::{Deserialize, Serialize};
 use bs58;
-use std::thread;
-use crate::config::Config;
-use crate::models::models::{TransferRequest,TransferResponse, PrivateKeyRespone};
-use base58::FromBase58;
+use crate::models::models::{TransferRequest,TransferResponse};
 
 
-const LAMPORTS_PER_SOL: u64 = 1_000_000_000;
 
-
-#[post("/send_sol")]
+#[post("/api/send_sol")]
 pub async fn send_sol(req: web::Json<TransferRequest>) -> impl Responder {
     let transfer_result = web::block(move || {
         let sender_keypair_bytes = match bs58::decode(&req.sender_private_key).into_vec() {
@@ -80,16 +74,17 @@ mod tests{
     use super::*;
     use actix_web::{test, App};
     use serde_json::json;
-    use solana_sdk::address_lookup_table::program;
     use crate::account;
     use account::private_key::get_private_key;
+    use crate::controller::utils;
+    use crate::models::models::PrivateKeyRespone;
 
 
     
     #[actix_web::test]
     async fn test_send_sol() {
         // Step 1: Get a private key from the mnemonic
-        let mnemonic = "wagon response favorite spoon grace assume upon patrol illness slogan eye planet";
+        let mnemonic = (*utils::constants::MNEMONIC).as_str();
 
         let mut app = test::init_service(
             App::new()
@@ -99,7 +94,7 @@ mod tests{
 
         // Request to get a private key
         let get_key_req = test::TestRequest::post()
-            .uri("/get_privateKey")
+            .uri("/api/get_privateKey")
             .set_json(&json!({
                 "mnemonic": mnemonic
             }))
@@ -116,7 +111,7 @@ mod tests{
         let amount = 0.00001; // small amount for testing
 
         let send_sol_req = test::TestRequest::post()
-            .uri("/send_sol")
+            .uri("/api/send_sol")
             .set_json(&json!({
                 "sender_private_key": private_key,
                 "recipient_public_key": recipient_public_key,

@@ -18,7 +18,7 @@ function CreateAccount({ setWallet, setSeedPhrase }) {
     try {
       setError("");
       const response = await fetch(
-        "http://127.0.0.1:8080/generate_mnemonic",
+        "http://127.0.0.1:8080/api/generate_mnemonic",
         {
           method: "POST",
         }
@@ -37,7 +37,7 @@ function CreateAccount({ setWallet, setSeedPhrase }) {
 
     try {
       setError('');
-      const response = await axios.post('http://localhost:8080/create_wallet', {
+      const response = await axios.post('http://localhost:8080/api/create_wallet', {
         phrase: newSeedPhrase,
         passphrase: passphrase || null,
       });

@@ -5,6 +5,8 @@ use bs58;
 use actix_web::{get, post, HttpResponse, Responder,web};
 use crate::models::models::{PrivateKeyRequest, PrivateKeyRespone};
 use log::{error, info};
+
+
 pub fn private_key_from_mnemonic(mnemonic_phrase: &str) -> Result<String, Box<dyn std::error::Error>> {
     let mnemonic = Mnemonic::from_phrase(mnemonic_phrase, Language::English)?;
 
@@ -22,7 +24,7 @@ pub fn private_key_from_mnemonic(mnemonic_phrase: &str) -> Result<String, Box<dy
     Ok(private_key_base58)
 }
 
-#[post("/get_privateKey")]
+#[post("/api/get_privateKey")]
 async fn get_private_key(phrase: web::Json<PrivateKeyRequest>) -> impl Responder{
     let mnemonic = phrase.mnemonic.clone();
 
