@@ -1,0 +1,7 @@
+/Users/parikalpbhardwaj/Coding_Zone/Rust/decentralized-wallet-rust/target/debug/deps/librustc_version-1dd140a15bfd5a9a.rmeta: /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustc_version-0.4.1/src/lib.rs
+
+/Users/parikalpbhardwaj/Coding_Zone/Rust/decentralized-wallet-rust/target/debug/deps/librustc_version-1dd140a15bfd5a9a.rlib: /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustc_version-0.4.1/src/lib.rs
+
+/Users/parikalpbhardwaj/Coding_Zone/Rust/decentralized-wallet-rust/target/debug/deps/rustc_version-1dd140a15bfd5a9a.d: /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustc_version-0.4.1/src/lib.rs
+
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustc_version-0.4.1/src/lib.rs:

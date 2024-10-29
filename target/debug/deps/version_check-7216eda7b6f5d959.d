@@ -1,0 +1,10 @@
+/Users/parikalpbhardwaj/Coding_Zone/Rust/decentralized-wallet-rust/target/debug/deps/libversion_check-7216eda7b6f5d959.rmeta: /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/lib.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/version.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/channel.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/date.rs
+
+/Users/parikalpbhardwaj/Coding_Zone/Rust/decentralized-wallet-rust/target/debug/deps/libversion_check-7216eda7b6f5d959.rlib: /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/lib.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/version.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/channel.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/date.rs
+
+/Users/parikalpbhardwaj/Coding_Zone/Rust/decentralized-wallet-rust/target/debug/deps/version_check-7216eda7b6f5d959.d: /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/lib.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/version.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/channel.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/date.rs
+
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/lib.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/version.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/channel.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/date.rs:

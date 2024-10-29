@@ -1,0 +1,8 @@
+/Users/parikalpbhardwaj/Coding_Zone/Rust/decentralized-wallet-rust/target/debug/deps/libsolana_udp_client-52b6ae88810dc068.rmeta: /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.23/src/lib.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.23/src/nonblocking/mod.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.23/src/nonblocking/udp_client.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.23/src/udp_client.rs
+
+/Users/parikalpbhardwaj/Coding_Zone/Rust/decentralized-wallet-rust/target/debug/deps/solana_udp_client-52b6ae88810dc068.d: /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.23/src/lib.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.23/src/nonblocking/mod.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.23/src/nonblocking/udp_client.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.23/src/udp_client.rs
+
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.23/src/lib.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.23/src/nonblocking/mod.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.23/src/nonblocking/udp_client.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.23/src/udp_client.rs:

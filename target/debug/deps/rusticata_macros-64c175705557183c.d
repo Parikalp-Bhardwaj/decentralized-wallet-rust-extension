@@ -1,0 +1,9 @@
+/Users/parikalpbhardwaj/Coding_Zone/Rust/decentralized-wallet-rust/target/debug/deps/librusticata_macros-64c175705557183c.rmeta: /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusticata-macros-4.1.0/src/lib.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusticata-macros-4.1.0/src/combinator.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusticata-macros-4.1.0/src/debug.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusticata-macros-4.1.0/src/macros.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusticata-macros-4.1.0/src/traits.rs
+
+/Users/parikalpbhardwaj/Coding_Zone/Rust/decentralized-wallet-rust/target/debug/deps/rusticata_macros-64c175705557183c.d: /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusticata-macros-4.1.0/src/lib.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusticata-macros-4.1.0/src/combinator.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusticata-macros-4.1.0/src/debug.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusticata-macros-4.1.0/src/macros.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusticata-macros-4.1.0/src/traits.rs
+
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusticata-macros-4.1.0/src/lib.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusticata-macros-4.1.0/src/combinator.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusticata-macros-4.1.0/src/debug.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusticata-macros-4.1.0/src/macros.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusticata-macros-4.1.0/src/traits.rs:

@@ -1,0 +1,11 @@
+/Users/parikalpbhardwaj/Coding_Zone/Rust/decentralized-wallet-rust/target/debug/deps/liburl-0a3eddfbeef0fec6.rmeta: /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/lib.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/host.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/origin.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/parser.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/path_segments.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/slicing.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/quirks.rs
+
+/Users/parikalpbhardwaj/Coding_Zone/Rust/decentralized-wallet-rust/target/debug/deps/url-0a3eddfbeef0fec6.d: /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/lib.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/host.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/origin.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/parser.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/path_segments.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/slicing.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/quirks.rs
+
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/lib.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/host.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/origin.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/parser.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/path_segments.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/slicing.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.2/src/quirks.rs:

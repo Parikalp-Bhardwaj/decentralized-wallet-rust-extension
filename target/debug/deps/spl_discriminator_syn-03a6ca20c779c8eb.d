@@ -1,0 +1,9 @@
+/Users/parikalpbhardwaj/Coding_Zone/Rust/decentralized-wallet-rust/target/debug/deps/libspl_discriminator_syn-03a6ca20c779c8eb.rmeta: /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-discriminator-syn-0.1.2/src/lib.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-discriminator-syn-0.1.2/src/error.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-discriminator-syn-0.1.2/src/parser.rs
+
+/Users/parikalpbhardwaj/Coding_Zone/Rust/decentralized-wallet-rust/target/debug/deps/libspl_discriminator_syn-03a6ca20c779c8eb.rlib: /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-discriminator-syn-0.1.2/src/lib.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-discriminator-syn-0.1.2/src/error.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-discriminator-syn-0.1.2/src/parser.rs
+
+/Users/parikalpbhardwaj/Coding_Zone/Rust/decentralized-wallet-rust/target/debug/deps/spl_discriminator_syn-03a6ca20c779c8eb.d: /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-discriminator-syn-0.1.2/src/lib.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-discriminator-syn-0.1.2/src/error.rs /Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-discriminator-syn-0.1.2/src/parser.rs
+
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-discriminator-syn-0.1.2/src/lib.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-discriminator-syn-0.1.2/src/error.rs:
+/Users/parikalpbhardwaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-discriminator-syn-0.1.2/src/parser.rs:

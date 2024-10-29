@@ -84,7 +84,9 @@ mod tests{
     #[actix_web::test]
     async fn test_send_sol() {
         // Step 1: Get a private key from the mnemonic
-        let mnemonic = (*utils::constants::MNEMONIC).as_str();
+        // let mnemonic = (*utils::constants::MNEMONIC).as_str();
+
+        let mnemonic = "wagon response favorite spoon grace assume upon patrol illness slogan eye planet";
 
         let mut app = test::init_service(
             App::new()
